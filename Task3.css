@@ -1,0 +1,67 @@
+body {
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/Doom_Slayer.webp);
+    
+}
+
+form {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 500px;
+    padding: 30px;
+    width: 320px;
+    
+}
+
+.title {
+    color: #ff0000;
+    font-family:fantasy;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+
+  }
+
+.subtitle {
+    color: rgb(254, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+
+    
+}
+
+.input {
+    background-color: #000000;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 60%;
+  }
+
+.submit {
+    font-family: fantasy;
+}
+
+.placeholder {
+    color: #ff0000;
+    font-family: fantasy;
+}
+
+  
